@@ -1,17 +1,84 @@
 @font-face {
     font-family: 'butlerregular';
     src: url('butler_regular-webfont.woff2') format('woff2'),
-         url('butler_regular-webfont.woff') format('woff');
+        url('butler_regular-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
-
 }
+
+@media only screen and (max-width: 600px) {
+    .container {
+        flex-direction: column;
+    }
+
+    .box {
+        margin: auto;
+        width: 90%;
+        padding: 10% 5%;
+    }
+
+    .left {
+        width: 100%;
+        max-height: 100%;
+    }
+
+    .right {
+        width: 100%
+    }
+}
+
+@media only screen and (min-width: 600px) and (max-width: 1000px) {
+    .container {
+        flex-direction: row;
+    }
+
+    .box {
+        margin: auto;
+        width: 80%;
+        height: 60%;
+        padding: 10% 5%;
+    }
+
+    .left {
+        width: 40%;
+        max-height: 100%;
+    }
+
+    .right {
+        margin-left: 6px;
+        width: calc(60% - 6px);
+    }
+}
+
+@media only screen and (min-width: 1000px) {
+    .container {
+        flex-direction: row;
+    }
+
+    .box {
+        margin: auto;
+        width: 50%;
+        height: 50%;
+        padding: 20% 10%;
+    }
+
+    .left {
+        width: 40%;
+        max-height: 100%;
+    }
+
+    .right {
+        margin-left: 12px;
+        width: calc(60% - 12px);
+    }
+}
+
 body {
     background-color: #f2efea;
 }
 
 h1 {
-    font-family: 'butlerregular','Cardo', serif;
+    font-family: 'butlerregular', 'Cardo', serif;
     font-size: 58px;
     line-height: 60px;
 }
@@ -37,14 +104,14 @@ p {
     color: #2c2d36;
     background-color: #f2efea;
     display: flex;
-    flex-direction: row;
     flex-wrap: wrap;
 }
 
-.left {
-    min-width: 20%;
-    max-width: 40%;
-    max-height: 100%;
+
+
+
+.right {
+    background-color: white;
 }
 
 .left>img {
@@ -53,16 +120,10 @@ p {
     object-fit: cover;
 }
 
-.right {
-    margin-left: 12px;
-    width: 50%;
-background-color: white;}
 
-.box{
-    margin: auto;
-    width: 50%;
-    height: 50%;
-    padding: 20% 10%;
+
+.box>img {
+    width: 20px;
+    height: 20px;
+    margin: 5px
 }
-.box>img
-{width: 20px; height:20px; margin:5px}
