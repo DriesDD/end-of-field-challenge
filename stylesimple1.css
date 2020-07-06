@@ -1,24 +1,16 @@
 @font-face {
     font-family: 'fallingsky';
-    src: url('FallingSky.woff') format('woff');
-    font-weight: normal;
+    src: url('fonts/fallingSkyMedium.woff') format('woff');
+    font-weight: 500;
     font-style: normal;
-
 }
 
-#mockup {
-    width: 332px;
-    height: 516px;
-
-    position: absolute;
-    top: 0;
-    left: 0;
-
-    opacity: 0.0;
-    z-index: 10;
-    pointer-events: none;
+@font-face {
+    font-family: 'fallingsky';
+    src: url('fonts/fallingSkySemibold.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
 }
-
 
 body {
     background-color: #F3F3F3;
@@ -40,7 +32,7 @@ body {
 .left {
     padding: 16px 50px;
     width: 350;
-    line-height: 2.2em;
+    line-height: 2.4em;
 }
 
 .right {
@@ -49,13 +41,14 @@ body {
 
 h3 {
     font-variant: small-caps;
-    font-size: 27px;
+    font-size: 26px;
+    letter-spacing: 0.05rem;
     line-height: 0.6em;
-    color: grey
+    color: grey;
 }
 
 h2 {
     letter-spacing: 0.0em;
-    font-size: 32px;
-    font-weight: 500
+    font-size: 29.5px;
+    font-weight: 600;
 }

@@ -1,7 +1,7 @@
 @font-face {
     font-family: 'butlerlight';
-    src: url('butler_light-webfont.woff2') format('woff2'),
-         url('butler_light-webfont.woff') format('woff');
+    src: url('fonts/butler_light-webfont.woff2') format('woff2'),
+        url('fonts/butler_light-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 }
@@ -107,9 +107,6 @@ p {
     flex-wrap: wrap;
 }
 
-
-
-
 .right {
     background-color: white;
 }
@@ -119,8 +116,6 @@ p {
     height: 100%;
     object-fit: cover;
 }
-
-
 
 .box>img {
     width: 20px;
