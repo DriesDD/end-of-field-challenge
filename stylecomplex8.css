@@ -1,9 +1,17 @@
+@font-face {
+    font-family: 'butlerregular';
+    src: url('butler_regular-webfont.woff2') format('woff2'),
+         url('butler_regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
 body {
     background-color: #f2efea;
 }
 
 h1 {
-    font-family: 'Cardo', serif;
+    font-family: 'butlerregular','Cardo', serif;
     font-size: 58px;
     line-height: 60px;
 }
