@@ -1,4 +1,60 @@
-h1
-{font-family: 'Cardo', serif;}
-h2, p
-{font-family: 'Lato', sans-serif;}
+body {
+    background-color: #f2efea;
+}
+
+h1 {
+    font-family: 'Cardo', serif;
+    font-size: 58px;
+    line-height: 60px;
+}
+
+h2 {
+    font-family: 'Jost', sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+p {
+    font-family: 'Jost', sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+}
+
+.container {
+    margin: 12px;
+    color: #2c2d36;
+    background-color: #f2efea;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.left {
+    min-width: 20%;
+    max-width: 40%;
+    max-height: 100%;
+}
+
+.left>img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.right {
+    margin-left: 12px;
+    width: 50%;
+background-color: white;}
+
+.box{
+    margin: auto;
+    width: 50%;
+    height: 50%;
+    padding: 20% 10%;
+}
+.box>img
+{width: 20px; height:20px; margin:5px}
