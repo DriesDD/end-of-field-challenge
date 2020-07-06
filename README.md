@@ -6,13 +6,13 @@ end-of-field-challenge
 Exercises:
 ----------
 
- - [complex.08](#complex.08) - [page link](https://driesdd.github.io/end-of-field-challenge/complex08.html)
+ - [complex.08](https://driesdd.github.io/end-of-field-challenge/#complex08) - [page link](https://driesdd.github.io/end-of-field-challenge/complex08.html)
 
- - [simple.01](#simple.01) - [page link](https://driesdd.github.io/end-of-field-challenge/simple01.html)
+ - [simple.01](https://driesdd.github.io/end-of-field-challenge/#simple01) - [page link](https://driesdd.github.io/end-of-field-challenge/simple01.html)
 
  - simple.04 
 
-I chose the complex.08 exercise and the simple.01 exercise.
+I chose the complex.08 exercise and the simple.01 exercise and used [these tools](https://driesdd.github.io/end-of-field-challenge/#tools-used).
 
 Complex.08
 ----------
@@ -31,7 +31,7 @@ I first made a version that looks like that at a certain resolution, then made i
 
 I used a flexbox because it had been a while since I used that and this seemed like a good case to use it. I think my solution for responsiveness is not the most elegant - I would personally prefer less lines of code - but it was fast to implement and the result looks good.
 
-See it here: https://driesdd.github.io/end-of-field-challenge/complex08.html
+See it here: [https://driesdd.github.io/end-of-field-challenge/complex08.html](https://driesdd.github.io/end-of-field-challenge/complex08.html)
 
 Simple.01
 ----------
@@ -46,7 +46,7 @@ My result looks like this:
 
 This exercise was quite easy to do with the pixel perfect overlay technique. I found a closely matching font so I included it but with a fallback to a webfont as well. I used a grid but since it looks like a card with a fixed width, there were also other options to get the position of the elements right. I am just most comfortable with grids at this point.
 
-See it here: https://driesdd.github.io/end-of-field-challenge/simple01.html
+See it here: [https://driesdd.github.io/end-of-field-challenge/simple01.html](https://driesdd.github.io/end-of-field-challenge/simple01.html)
 
 Tools used
 ----------
