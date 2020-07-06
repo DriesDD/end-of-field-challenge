@@ -1,0 +1,23 @@
+#mockup {
+  width: 332px;
+  height: 516px;
+  
+  position: absolute;
+  top: 0;
+  left: 0;
+  
+  opacity: 0.0;
+  z-index: 10;
+  pointer-events: none;
+}
+
+
+body{background-color: #F3F3F3; font-family: 'Roboto', sans-serif; margin:0px;}
+
+.card{background-color: white;   border-radius: 25px; margin: 25px; width: 642px; height: 210px; 
+    display:flex; flex-direction: row; box-shadow: 5px 5px 20px lightgrey;}
+.left{ padding:16px 50px; width: 350; line-height:2.4em;}
+.right{margin:32px 32px 32px 0px}
+
+h3{font-variant: small-caps; font-size: 27px; line-height:0.6em; color: grey}
+h2{letter-spacing:0.0em; font-size: 30px; font-weight:500}
