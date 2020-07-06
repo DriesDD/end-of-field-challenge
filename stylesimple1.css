@@ -26,7 +26,7 @@ body {
     height: 210px;
     display: flex;
     flex-direction: row;
-    box-shadow: 10px 10px 20px lightgrey;
+    box-shadow: 10px 16px 30px lightgrey;
 }
 
 .left {
