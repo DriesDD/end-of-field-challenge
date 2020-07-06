@@ -58,13 +58,13 @@
     .box {
         margin: auto;
         width: 50%;
-        height: 50%;
+        height: 50px;
         padding: 20% 10%;
     }
 
     .left {
         width: 40%;
-        max-height: 100%;
+        max-height: calc(100vh - 24px);
     }
 
     .right {
