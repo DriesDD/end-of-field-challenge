@@ -20,35 +20,36 @@ body {
 
 .card {
     background-color: white;
-    border-radius: 25px;
-    margin: 25px;
-    width: 642px;
-    height: 210px;
+    border-radius: 12px;
+    margin: 12px;
+    width: 321px;
+    height: 110px;
     display: flex;
     flex-direction: row;
-    box-shadow: 10px 16px 30px lightgrey;
+    box-shadow: 8px 8px 16px lightgrey;
 }
 
 .left {
-    padding: 16px 50px;
-    width: 350;
-    line-height: 2.4em;
+    padding: 8px 25px;
+    width: 175;
+    line-height: 1.2em;
 }
 
 .right {
-    margin: 32px 32px 32px 0px
+    margin: 16px 16px 16px 0px
 }
 
 h3 {
     font-variant: small-caps;
-    font-size: 26px;
+    font-size: 13px;
     letter-spacing: 0.05rem;
-    line-height: 0.6em;
+    line-height: 0.3em;
     color: grey;
 }
 
 h2 {
-    letter-spacing: 0.0em;
-    font-size: 29.5px;
+    letter-spacing: -0.00em;
+    font-size: 14.5px;
     font-weight: 600;
+    color: #222;
 }
